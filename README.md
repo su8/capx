@@ -5,7 +5,7 @@ Capitalize certain character
 
 ```bash
 # input
-capx 9 Hello World
+$> capx 9 Hello World
 
 # output
 $> Hello WorLd 
@@ -14,6 +14,6 @@ $> Hello WorLd
 # Installation
 
 ```bash
-make
-make install
+$ make
+# make install
 ```
