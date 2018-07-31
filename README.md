@@ -1,0 +1,2 @@
+# capx
+Capitalize certain character
