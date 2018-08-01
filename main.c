@@ -26,7 +26,8 @@ int main(int argc, char *argv[]) {
   long int y = 0, z = 0;
   char *str = NULL;
 
-  if (1 == argc || 0 > (z = (strtol(argv[1], (char **)NULL, 10)))) {
+  if (1 == argc || 2 == argc ||
+      0 > (z = (strtol(argv[1], (char **)NULL, 10)))) {
     puts("usage: capx 9 Hello World !");
     return EXIT_FAILURE;
   }
